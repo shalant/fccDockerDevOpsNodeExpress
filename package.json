@@ -1,0 +1,23 @@
+{
+  "name": "fccdockerdevopsnodeexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shalant/fccDockerDevOpsNodeExpress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shalant/fccDockerDevOpsNodeExpress/issues"
+  },
+  "homepage": "https://github.com/shalant/fccDockerDevOpsNodeExpress#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
