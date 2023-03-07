@@ -4,11 +4,11 @@ services:
     build: .
     ports:
       - "3000:3000"
-    volumes:
-      - ./:/app
-      - /app/node_modules
     environment:
       - PORT=3000
-    # env_file:
-    #   -./.env
-    
+  
+  mongo:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=sanjeev
+      - MONGO_INITDB_ROOT_PASSWORD=mypassword
